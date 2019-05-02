@@ -1,3 +1,4 @@
+# Config View for Cartoview Apps
 This is a starter config wizard view for cartoview app instances.
 
 The project is based on cartoview SDK that implements the common wizard tabs:
