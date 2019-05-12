@@ -1,9 +1,9 @@
 {
   "name": "config_view",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@cartologic/sdk": "file:../../../../../sdk/dist",
+    "@cartologic/sdk": "0.0.7",
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",

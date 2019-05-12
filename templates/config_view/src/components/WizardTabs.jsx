@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 
@@ -8,7 +8,7 @@ import NavigationTools from '@cartologic/sdk/wizard/tabsContent/NavigationTools'
 import AccessConfiguration from '@cartologic/sdk/wizard/tabsContent/AccessConfiguration';
 
 
-class WizardTabs extends React.Component {
+class WizardTabs extends Component {
 
     state = {
         activeTab: "MapSelector"
