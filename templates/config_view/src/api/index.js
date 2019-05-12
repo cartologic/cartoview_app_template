@@ -55,7 +55,7 @@ export function getAppInstance(appInstanceId) {
 };
 
 export function updateAppInstance(id, appInstance) {
-    return apiInstance.patch('appinstance/' + id + '/eeee', {
+    return apiInstance.patch('appinstance/' + id, {
         app_map: appInstance.app_map,
         title: appInstance.title,
         description: appInstance.description,
