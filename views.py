@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 class IndexView(TemplateView):
     def get(self, request, *args, **kwargs):
-        return render(request, "index_view/build/index.html", {})
+        return render(request, "cartoview_app_template/index_view/build/index.html", {})
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -14,7 +14,7 @@ class IndexView(TemplateView):
 
 class ConfigView(TemplateView):
     def get(self, request, *args, **kwargs):
-        return render(request, "config_view/build/index.html", {})
+        return render(request, "cartoview_app_template/config_view/build/index.html", {})
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
